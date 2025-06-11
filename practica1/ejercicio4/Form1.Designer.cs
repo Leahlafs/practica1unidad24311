@@ -42,7 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            label1.Location = new Point(114, 123);
+            label1.Location = new Point(82, 111);
             label1.Name = "label1";
             label1.Size = new Size(63, 25);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            label2.Location = new Point(114, 178);
+            label2.Location = new Point(82, 166);
             label2.Name = "label2";
             label2.Size = new Size(66, 25);
             label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             lblresultado.AutoSize = true;
             lblresultado.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            lblresultado.Location = new Point(210, 305);
+            lblresultado.Location = new Point(178, 293);
             lblresultado.Name = "lblresultado";
             lblresultado.Size = new Size(0, 25);
             lblresultado.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            label4.Location = new Point(161, 63);
+            label4.Location = new Point(129, 51);
             label4.Name = "label4";
             label4.Size = new Size(184, 25);
             label4.TabIndex = 3;
@@ -80,7 +80,7 @@
             // txtnum1
             // 
             txtnum1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            txtnum1.Location = new Point(190, 117);
+            txtnum1.Location = new Point(158, 105);
             txtnum1.Name = "txtnum1";
             txtnum1.Size = new Size(150, 31);
             txtnum1.TabIndex = 4;
@@ -88,7 +88,7 @@
             // txtnum2
             // 
             txtnum2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            txtnum2.Location = new Point(190, 178);
+            txtnum2.Location = new Point(158, 166);
             txtnum2.Name = "txtnum2";
             txtnum2.Size = new Size(150, 31);
             txtnum2.TabIndex = 5;
@@ -96,7 +96,7 @@
             // btnsumar
             // 
             btnsumar.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            btnsumar.Location = new Point(143, 240);
+            btnsumar.Location = new Point(111, 228);
             btnsumar.Name = "btnsumar";
             btnsumar.Size = new Size(214, 34);
             btnsumar.TabIndex = 6;
@@ -108,7 +108,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
-            label5.Location = new Point(114, 305);
+            label5.Location = new Point(82, 293);
             label5.Name = "label5";
             label5.Size = new Size(73, 25);
             label5.TabIndex = 7;
@@ -128,7 +128,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "SUMA";
             ResumeLayout(false);
             PerformLayout();
         }
