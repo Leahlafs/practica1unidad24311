@@ -67,7 +67,7 @@
             // 
             lblresultado.AutoSize = true;
             lblresultado.Font = new Font("Century Gothic", 10F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 0);
-            lblresultado.Location = new Point(1058, 145);
+            lblresultado.Location = new Point(1034, 147);
             lblresultado.Name = "lblresultado";
             lblresultado.Size = new Size(0, 23);
             lblresultado.TabIndex = 3;
