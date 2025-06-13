@@ -50,6 +50,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Bienvenida";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
