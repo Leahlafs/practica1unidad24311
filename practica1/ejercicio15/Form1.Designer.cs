@@ -42,9 +42,10 @@
             // 
             // btnabrir
             // 
-            btnabrir.Location = new Point(234, 312);
+            btnabrir.Font = new Font("Century Gothic", 10F, FontStyle.Bold);
+            btnabrir.Location = new Point(117, 351);
             btnabrir.Name = "btnabrir";
-            btnabrir.Size = new Size(112, 34);
+            btnabrir.Size = new Size(146, 44);
             btnabrir.TabIndex = 0;
             btnabrir.Text = "Abrir";
             btnabrir.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             // btnguardar
             // 
-            btnguardar.Location = new Point(372, 312);
+            btnguardar.Font = new Font("Century Gothic", 10F, FontStyle.Bold);
+            btnguardar.Location = new Point(467, 351);
             btnguardar.Name = "btnguardar";
-            btnguardar.Size = new Size(112, 34);
+            btnguardar.Size = new Size(146, 44);
             btnguardar.TabIndex = 1;
             btnguardar.Text = "Guardar";
             btnguardar.UseVisualStyleBackColor = true;
@@ -73,20 +75,21 @@
             txtcontenido.Location = new Point(117, 70);
             txtcontenido.Multiline = true;
             txtcontenido.Name = "txtcontenido";
-            txtcontenido.Size = new Size(493, 226);
+            txtcontenido.Size = new Size(496, 236);
             txtcontenido.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSteelBlue;
             ClientSize = new Size(800, 450);
             Controls.Add(txtcontenido);
             Controls.Add(label1);
             Controls.Add(btnguardar);
             Controls.Add(btnabrir);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Abrir y guardar archivos";
             ResumeLayout(false);
             PerformLayout();
         }
